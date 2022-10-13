@@ -62,7 +62,7 @@ const postPlayer = async (newPlayer) => {
       headers: {
         'Content-Type': 'application/json',
       },
-    },
+    }
   );
   const data = await response.json();
   return data.result;
@@ -74,7 +74,7 @@ const postPlayer = async (newPlayer) => {
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
   const newPlayer = {
-    name: name.value,
+    user: name.value,
     score: score.value,
   };
   responsePost.textContent = await postPlayer(newPlayer);
