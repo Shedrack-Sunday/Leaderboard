@@ -4,12 +4,15 @@ import './style.css';
 // Name and score selectors from the form field to be entered.
 const form = document.querySelector('.form-input');
 const [name, score] = form.elements;
-let keyGame;
+
+// Refresh button from tag
 const btnRefresh = document.querySelector('.btn-refresh');
 const responsePost = document.querySelector('.response-post');
-const listPlayers = document.querySelector('.list-players');
-const spinner = document.querySelector('.spinner');
+
+// New Player object created
 const objPlayers = new Players();
+
+// Assigning the API endpoint to a variable for use.
 const urlNewGame = `
   https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/`;
 const nameGame = { name: "Bamidele's cool name" };
@@ -34,25 +37,14 @@ const keyNewGameAPIs = async () => {
   return data.result.slice(14, 34);
 };
 
-if (localStorage.keyGame) {
-  keyGame = localStorage.getItem('keyGame');
-} else {
-  const loadKey = async () => {
-    keyGame = await keyNewGameAPIs();
-    localStorage.setItem('keyGame', keyGame);
-  };
-  loadKey();
-}
+const keyGame = keyNewGameAPIs();
 
+// Getting THE API from the endpoint
 const getAPIs = async () => {
-  listPlayers.classList.add('hidden');
-  spinner.classList.remove('hidden');
   const response = await fetch(`
     https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${keyGame}/scores`);
   const data = await response.json();
   objPlayers.players = data.result;
-  listPlayers.classList.remove('hidden');
-  spinner.classList.add('hidden');
   objPlayers.playerDisplay();
   return data.result;
 };
@@ -90,7 +82,7 @@ form.addEventListener('submit', async (e) => {
   score.value = '';
   setTimeout(() => {
     responsePost.textContent = '';
-  }, 3000);
+  }, 3000); // 3 secs wait time for content output
 });
 
 // The refresh event passed with the API Function
