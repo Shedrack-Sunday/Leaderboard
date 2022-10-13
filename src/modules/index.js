@@ -34,7 +34,7 @@ const Players = class {
   // A special object to displayer players using the map
   // method.
   playerDisplay = () => {
-    listPlayers.innerHTML = ''; 
+    listPlayers.innerHTML = '';
     if (this.players.length > 0) {
       this.players.map((player) => {
         const playerDiv = document.createElement('tr');

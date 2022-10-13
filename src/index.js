@@ -70,7 +70,7 @@ const postPlayer = async (newPlayer) => {
       headers: {
         'Content-Type': 'application/json',
       },
-    }
+    },  
   );
   const data = await response.json();
   return data.result;
@@ -94,7 +94,7 @@ form.addEventListener('submit', async (e) => {
 });
 
 // The refresh event passed with the API Function
-// Then it gets displayed on the browers by 
+// Then it gets displayed on the browers by
 // The olayerDisplay function whn called
 btnRefresh.addEventListener('click', getAPIs);
 objPlayers.playerDisplay();

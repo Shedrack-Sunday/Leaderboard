@@ -6,7 +6,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Inter' sans-serif;
+  font-family: sans-serif;
   box-sizing: border-box;
   height: 100vh;
   width: 100%;
@@ -151,19 +151,19 @@ tr:nth-child(even) {
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 32rem;
 }
 
 .contact > p {
-    padding: 0;
-    margin: 0;
-    align-self: flex-start;
-  }
+  padding: 0;
+  margin: 0;
+  align-self: flex-start;
+}
 
 .form-input {
   margin: 0 auto;
@@ -176,12 +176,12 @@ tr:nth-child(even) {
 }
 
 .spinner {
+  border: 4px solid #c1bcca;
   border-radius: 50%;
   border-left-color: transparent;
   width: 36px;
   height: 36px;
   margin: 0 auto;
-  border: 4px solid #380991;
   animation: spin 1s linear infinite;
 }
 
