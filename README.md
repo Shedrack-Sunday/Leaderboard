@@ -33,7 +33,7 @@ To get a local copy up follow these simple example steps.
 
 ### Setup
 
-Open a terminal or a git bash in the desired directory and run `https://github.com/hendridg/leaderboard`
+Open a terminal or a git bash in the desired directory and run `https://github.com/ShedrackSunday/leaderboard`
 
 👤 **Author1**
 
