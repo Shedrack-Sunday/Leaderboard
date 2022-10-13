@@ -29,19 +29,19 @@ const Players = class {
   addPlayer = (newPlayer) => {
     this.players.push(newPlayer);
     this.populateFields();
-    this.displayPlayers();
+    this.playerDisplay();
   };
 
   // A special object to displayer players using the map
   // method.
-  display = () => {
-    listPlayers.innerHTML = ''; // the class id to displayer the players is selected to pass input.
+  playerDisplay = () => {
+    listPlayers.innerHTML = ''; 
     if (this.players.length > 0) {
       this.players.map((player) => {
         const playerDiv = document.createElement('tr');
         const elementPlayer = document.createElement('td');
         elementPlayer.textContent = `${player.name}: ${player.score}`;
-         playerDiv.classList.add('player-container');
+        playerDiv.classList.add('player-container');
         playerDiv.appendChild(elementPlayer);
         listPlayers.appendChild(playerDiv);
         return listPlayers;
