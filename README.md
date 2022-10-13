@@ -4,6 +4,9 @@
 
 > Using HTML, CSS, JavaScript, Npm and Webpack
 
+## Live View
+![Click here to view](
+https://shedrack-sunday.github.io/Leaderboard/dist/)
 
 ## Available Scripts
 
@@ -21,7 +24,7 @@ You will also see any lint errors in the console.
 
 ## Built With
 
-- HTML, CSS, JavaScriptsm, Npm and Webpack
+- HTML, CSS, JavaScript, Npm and Webpack
 
 ## Getting Started
 
