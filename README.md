@@ -5,7 +5,7 @@
 > Using HTML, CSS, JavaScript, Npm and Webpack
 
 ## Live View
-![Click here to view](
+[Click here](
 https://shedrack-sunday.github.io/Leaderboard/dist/)
 
 ## Available Scripts
