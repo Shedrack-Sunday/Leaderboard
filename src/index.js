@@ -13,8 +13,7 @@ const responsePost = document.querySelector('.response-post');
 // When new entries are entered , and a wait time
 // is set.
 const listPlayers = document.querySelector('.list-players');
-const RotatorReload = document.querySelector('.RotatorReload')
-
+const RotatorReload = document.querySelector('.RotatorReload');
 
 // New Player object created
 const objPlayers = new Players();
