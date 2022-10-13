@@ -77,7 +77,7 @@ const postPlayer = async (newPlayer) => {
 };
 
 // Acion to be performerd
-// When  user clicks on the entries 
+// When  user clicks on the entries
 // from the form on the page
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
@@ -93,6 +93,9 @@ form.addEventListener('submit', async (e) => {
   }, 3000);
 });
 
+// The refresh event passed with the API Function
+// Then it gets displayed on the browers by 
+// The olayerDisplay function whn called
 btnRefresh.addEventListener('click', getAPIs);
 objPlayers.playerDisplay();
 objPlayers.populateFields();

@@ -1,8 +1,7 @@
-
 // The player list class selected
 const listPlayers = document.querySelector('.list-players');
 
-/* class declaration with methods o be 
+/* class declaration with methods o be
 called opon based on the user actions */
 const Players = class {
   constructor(name, score) {
