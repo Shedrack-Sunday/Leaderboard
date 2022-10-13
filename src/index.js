@@ -103,3 +103,4 @@ form.addEventListener('submit', async (e) => {
 btnRefresh.addEventListener('click', getAPIs);
 objPlayers.playerDisplay();
 objPlayers.populateFields();
+getAPIs();
