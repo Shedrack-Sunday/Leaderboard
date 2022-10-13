@@ -5,9 +5,15 @@
 > Using HTML, CSS, JavaScript, Npm and Webpack
 
 
-## Available Scripts
+## Live View
+[Click here](
+https://shedrack-sunday.github.io/Leaderboard/dist/)
 
-In the project directory, you can run:
+## Project Setup:
+
+In the project directory:
+
+Open a terminal or a git bash in the desired directory and run `https://github.com/ShedrackSunday/leaderboard`
 
 ### `npm run start`
 
@@ -21,7 +27,7 @@ You will also see any lint errors in the console.
 
 ## Built With
 
-- HTML, CSS, JavaScriptsm, Npm and Webpack
+- HTML, CSS, JavaScript, Npm and Webpack
 
 ## Getting Started
 
@@ -31,11 +37,7 @@ To get a local copy up follow these simple example steps.
 
 - GIT, NODE, NPM
 
-### Setup
-
-Open a terminal or a git bash in the desired directory and run `https://github.com/ShedrackSunday/leaderboard`
-
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@ShedrackSunday](https://github.com/ShedrackSunday)
 - Twitter: [@DeleSundayS](https://twitter.com/ShedrackSunday)

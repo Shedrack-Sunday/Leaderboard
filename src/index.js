@@ -9,6 +9,12 @@ const [name, score] = form.elements;
 const btnRefresh = document.querySelector('.btn-refresh');
 const responsePost = document.querySelector('.response-post');
 
+// Query for syling and handling the rotaing spin
+// When new entries are entered , and a wait time
+// is set.
+const listPlayers = document.querySelector('.list-players');
+const RotatorReload = document.querySelector('.RotatorReload');
+
 // New Player object created
 const objPlayers = new Players();
 
@@ -41,10 +47,16 @@ const keyGame = keyNewGameAPIs();
 
 // Getting THE API from the endpoint
 const getAPIs = async () => {
+  // Class id for roating load spin added
+
+  listPlayers.classList.add('hidden');
+  RotatorReload.classList.remove('hidden');
   const response = await fetch(`
     https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${keyGame}/scores`);
   const data = await response.json();
   objPlayers.players = data.result;
+  listPlayers.classList.remove('hidden');
+  RotatorReload.classList.add('hidden');
   objPlayers.playerDisplay();
   return data.result;
 };
@@ -91,3 +103,4 @@ form.addEventListener('submit', async (e) => {
 btnRefresh.addEventListener('click', getAPIs);
 objPlayers.playerDisplay();
 objPlayers.populateFields();
+getAPIs();

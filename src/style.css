@@ -142,6 +142,9 @@ tr:nth-child(even) {
   max-width: 32rem;
   margin: 0 auto;
   margin-bottom: 4rem;
+  max-height: 40vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .player-container {
@@ -175,8 +178,8 @@ tr:nth-child(even) {
   margin-bottom: 3rem;
 }
 
-.spinner {
-  border: 4px solid #c1bcca;
+.RotatorReload {
+  border: 4px solid #310a31;
   border-radius: 50%;
   border-left-color: transparent;
   width: 36px;
