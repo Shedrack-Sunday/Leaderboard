@@ -142,6 +142,9 @@ tr:nth-child(even) {
   max-width: 32rem;
   margin: 0 auto;
   margin-bottom: 4rem;
+  max-height: 40vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .player-container {
