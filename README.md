@@ -8,11 +8,6 @@
   <br/>
 
   <h3><b>Leaderboard README Outlook</b></h3>
-## Screen View:
-![Screenshot 2022-11-01 204225](https://user-images.githubusercontent.com/50990925/199325126-3ac0cc94-ad58-4ae7-b17b-1acae7e60283.png)
-
-
-## Project Setup:
 
 
 </div>
@@ -24,6 +19,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Screen view](#Screen-View)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
@@ -31,8 +27,6 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -56,6 +50,10 @@
 > CSS for styling
 > VSCode
 > Webpack
+
+## Screen View <a name="Screen-View"></a>
+
+![leaderboard](https://user-images.githubusercontent.com/50990925/204023354-4e3513f0-4b88-4fb3-9a6d-a9ad4a42e6db.png)
 
 <details>
   <summary>Client</summary>
