@@ -8,6 +8,12 @@
   <br/>
 
   <h3><b>Leaderboard README Outlook</b></h3>
+## Screen View:
+![Screenshot 2022-11-01 204225](https://user-images.githubusercontent.com/50990925/199325126-3ac0cc94-ad58-4ae7-b17b-1acae7e60283.png)
+
+
+## Project Setup:
+
 
 </div>
 
