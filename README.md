@@ -65,9 +65,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **The Home page consist of a spinner to wait for API Call **
-- **The refresh button refreshers the page **
-- **The Form allows addition to the list **
+- **The Home page consist of a spinner to wait for API Call**
+- **The refresh button refreshers the page**
+- **The Form allows addition to the list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -89,9 +89,7 @@ In order to run this project you need:
 
 > - Git
 > - IDE(e.g.: VsCode, Sublime,...)
-> - Proficiency in the use of CSS(Flexbox)
-> - Advance HTML
-> - DOM proficiency with Javascript
+> - Node.js for npm
 
 
 ### Setup
@@ -137,9 +135,9 @@ Open [http://localhost:8080](http://localhost:8080) to view it in the browser.
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **A Filter button **
-- [ ] **A suggestion Popup **
-- [ ] **History page with detail entries **
+- [ ] **A Filter button**
+- [ ] **A suggestion Popup**
+- [ ] **History page with detail entries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,11 +169,11 @@ to make it better. We'll be more than happy to help
 
 - **Do i need the current NPM version?**
 
-  - Yes you do
+  - Yes you do. This will sync with the version of the project. `npm install` should fix that.
 
 - **Do i need to be connected to the internet?**
 
-  - Yes!  
+  - Yes!  This is required to access the external API calls.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
